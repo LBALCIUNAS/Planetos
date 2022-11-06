@@ -1,0 +1,106 @@
+
+body {
+    grid-template-columns: 1fr;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    width: 938px;
+}
+
+.tabs{
+    display: grid;
+    grid-column: 2/3;
+    padding: 30px;
+    max-width: 800px;
+    width: 85%;
+    margin: auto;
+}
+
+.tab {
+    display: none;
+}
+
+img {
+    width: 55%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+p{
+    text-align: justify;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+button {
+    display: grid;
+    background: none;
+    border: 1px solid rgba(235, 222, 222, 0);
+    font-size: 1.2em;
+    margin-top: 30px;
+    grid-column: 1/1;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 47px;
+}
+#buttons:nth-child(1){
+    display: grid;
+    grid-row: 1/2;
+    height: 80%;
+    max-width: 100%;
+}
+#buttons:nth-child(2){
+    display: grid;
+    grid-row: 2/3;
+    height: 80%;
+    max-width: 100%;
+}
+#buttons:nth-child(3){
+    display: grid;
+    grid-row: 3/4;
+    height: 80%;
+    max-width: 100%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.active {
+    background: rgb(184,160,88);
+background: radial-gradient(circle, rgba(184,160,88,1) 22%, rgba(79,129,129,1) 49%, rgba(2,0,36,1) 100%);
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.block {
+    display: block;
+}
+
+.img1 {
+    display: grid;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Jupiter_New_Horizons.jpg/220px-Jupiter_New_Horizons.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.img2 {
+    display: grid;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/220px-The_Blue_Marble_%28remastered%29.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img3 {
+    display: grid;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/220px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
